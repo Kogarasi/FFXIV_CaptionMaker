@@ -1,0 +1,4 @@
+[submodule "build"]
+	path = build
+	url = https://github.com/Kogarasi/FFXIV_CaptionMaker.git
+	branch = gh-pages
