@@ -23,9 +23,9 @@ Windows or Mac OS / Chrome
 
 ## ライセンス
 
-使用してるキャプション用画像:
+使用してるキャプション用画像:  
 Copyright (C) 2010 - 2014 SQUARE ENIX CO., LTD. All Rights Reserved.
 
-その他:
+その他:  
 Copyright 2014 - Kogarasi, All Rights Reserved.
 BSD License
