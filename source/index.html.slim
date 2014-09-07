@@ -7,15 +7,16 @@
           textarea.form-control ng-model="font.text" ng-init="font.text='祝1周年！'"
         .form-group
           label 文字サイズ
-          input.form-control type="text" ng-model="font.size" ng-init="font.size=20"
+          input.form-control type="text" ng-model="font.size" ng-init="font.size=40"
         .form-group
           label 文字色
           input.form-control type="text" ng-model="font.color" ng-init="font.color='#FFFFFF'"
         .form-group
           label フォント
-          input.form-control type="text" ng-model="font.name" ng-init="font.name='Arial'"
+          input.form-control type="text" ng-model="font.name"
+          select.form-control ng-model="font.name" ng-options="font for font in fonts"
         .form-group
-          label 座標
+          label 座標(X,Y)
           input.form-control type="text" ng-model="font.x" ng-init="font.x=150"
           input.form-control type="text" ng-model="font.y" ng-init="font.y=400"
     .col-xs-10
