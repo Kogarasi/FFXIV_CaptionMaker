@@ -1,0 +1,22 @@
+.container-fluid ng-app='CaptionMaker'
+  div ng-controller="CaptionMakerController"
+    .col-xs-2
+      form
+        .form-group
+          label キャプション
+          textarea.form-control ng-model="font.text" ng-init="font.text='祝1周年！'"
+        .form-group
+          label 文字サイズ
+          input.form-control type="text" ng-model="font.size" ng-init="font.size=20"
+        .form-group
+          label 文字色
+          input.form-control type="text" ng-model="font.color" ng-init="font.color='#FFFFFF'"
+        .form-group
+          label フォント
+          input.form-control type="text" ng-model="font.name" ng-init="font.name='Arial'"
+        .form-group
+          label 座標
+          input.form-control type="text" ng-model="font.x" ng-init="font.x=150"
+          input.form-control type="text" ng-model="font.y" ng-init="font.y=400"
+    .col-xs-10
+      canvas#canvas width="800px" height="600px"

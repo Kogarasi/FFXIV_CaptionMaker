@@ -21,10 +21,11 @@ module.exports = (grunt) ->
 
 		typescript:
 			base:
-				src: ['source_typescript/main.ts']
-				dest: 'source/javascripts/main.js'
+				src: ['source_typescript/index.ts']
+				dest: 'source/javascripts/index.js'
 				options:
 					sourceMap: true
+					target: 'es5'
 		
 		middleman:
 			options:
