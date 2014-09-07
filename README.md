@@ -1,7 +1,7 @@
 # FFXIV キャプションメイカー
 
 リンク先:  
-http://http://kogarasi.github.io/FFXIV_CaptionMaker/
+http://kogarasi.github.io/FFXIV_CaptionMaker/
 
 ## 使い方
 
