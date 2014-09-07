@@ -65,16 +65,27 @@ angular.module('CaptionMaker', []).controller('CaptionMakerController', [
 
         $scope.image.src = 'images/caption0.jpg';
 
-        $scope.font.text = "test";
-        $scope.font.size = 20;
-        $scope.font.name = "Arial";
-        $scope.font.x = 20;
-        $scope.font.y = 80;
-
         $scope.renderer.render(function (context) {
             $scope.image.render(context);
             $scope.font.render(context);
         });
+
+        $scope.fonts = [
+            "sanserif",
+            "serif",
+            "Arial",
+            "Meiryo",
+            "MS UI Gothic",
+            "MS Gothic",
+            "MS Mincho",
+            "Osaka",
+            "Hiragino Kaku Gothic Pro",
+            "Hiragino Maru Gothic Pro",
+            "YuGothic",
+            "Yu Gothic",
+            "YuMincho",
+            "Yu Mincho"
+        ];
     }]);
 //# sourceMappingURL=index.js.map
 ;
